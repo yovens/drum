@@ -1,0 +1,677 @@
+/* style.css - Design professionnel et moderne */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #0f172a, #1e293b);
+    color: white;
+    padding-bottom: 2rem;
+    border-bottom: 4px solid #3b82f6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: orange;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    
+    color: white;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .btn {
+    background: #3b82f6;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background: #2563eb;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cours-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #1e293b;
+  }
+  
+  .cours-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .cours-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #1e293b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .cours-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background: url('../assets/img/istockphoto-1340008983-612x612.jpg') no-repeat center center/cover;
+  }
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #111, #444);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    background: url('../assets/img/istockphoto-1400528967-612x612.jpg') no-repeat center center/cover;
+  }
+  
+  .cours-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .cours-card {
+    text-decoration: none;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .cours-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .video video {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  /* === Contact Page === */
+
+.contact-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .contact-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-section p {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .contact-form {
+    flex: 1 1 350px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-form button {
+    margin-top: 1.5rem;
+    background-color: #f57c00;
+    color: white;
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ef6c00;
+  }
+  
+  .contact-info {
+    flex: 1 1 300px;
+    background-color: #f0f4f8;
+    padding: 2rem;
+    border-radius: 1rem;
+    color: #333;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .contact-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+  
+    .contact-form,
+    .contact-info {
+      width: 100%;
+    }
+  }
+
+  .footer {
+    background-color: #222;
+    color: #eee;
+    padding: 3rem 2rem 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .footer-brand h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #f57c00;
+  }
+  
+  .footer-brand p {
+    font-size: 1.1rem;
+    max-width: 300px;
+    line-height: 1.5;
+    color: #ccc;
+  }
+  
+  .footer-links h3,
+  .footer-contact h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #f57c00;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 0.6rem;
+  }
+  
+  .footer-links ul li a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #f9a825;
+  }
+  
+  .footer-contact p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+  }
+  
+  .footer-contact a {
+    color: #eee;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-contact a:hover {
+    color: #f9a825;
+  }
+  
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a img {
+    width: 28px;
+    height: 28px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s;
+  }
+  
+  .social-icons a:hover img {
+    filter: brightness(0) invert(0.6) sepia(1) saturate(5) hue-rotate(30deg);
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .footer-brand,
+    .footer-links,
+    .footer-contact {
+      max-width: 100%;
+    }
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
+ 
+/* Section des réseaux sociaux */
+.footer-socials {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Titre "Suivez-nous" */
+.footer-socials h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Liste des réseaux sociaux */
+.footer-socials ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-socials ul li {
+  margin: 10px 0;
+}
+
+.footer-socials a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-socials a i {
+  margin-right: 10px;
+}
+
+/* Couleurs des icônes de réseaux sociaux */
+.footer-socials a:hover {
+  color:  #63c782;
+}
+
+/* Section des mentions légales et copyright */
+.footer-legal {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer-legal p {
+  margin: 10px 0;
+}
+
+/* Liens des mentions légales et politique de confidentialité */
+.footer-legal a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  text-decoration: underline;
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 768px) {
+  .footer .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-info, .footer-contact, .footer-socials {
+      max-width: 100%;
+      text-align: center;
+  }
+}
+
+
+
+
+/* Structure de l'en-tête */
+
+/* Style global du pied de page */
+.footer {
+  background-color: #333;
+  color: #63c782 ;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Conteneur du pied de page */
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+/* Section des informations de l'entreprise */
+.footer-info {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Logo de l'entreprise */
+.footer-logo img {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
+/* Description de l'entreprise */
+.company-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Section des contacts */
+.footer-contact {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Titre "Contactez-nous" */
+.footer-contact h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Liens de contact */
+.footer-contact p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer-contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+/* Section des réseaux sociaux */
+.footer-socials {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Titre "Suivez-nous" */
+.footer-socials h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Liste des réseaux sociaux */
+.footer-socials ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-socials ul li {
+  margin: 10px 0;
+}
+
+.footer-socials a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer-socials a i {
+  margin-right: 10px;
+}
+
+/* Couleurs des icônes de réseaux sociaux */
+.footer-socials a:hover {
+  color:  #63c782;
+}
+
+/* Section des mentions légales et copyright */
+.footer-legal {
+  flex-basis: 100%;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.footer-legal p {
+  margin: 10px 0;
+}
+
+/* Liens des mentions légales et politique de confidentialité */
+.footer-legal a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-legal a:hover {
+  text-decoration: underline;
+}
+
+/* Media query pour les petits écrans */
+@media (max-width: 768px) {
+  .footer .container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-info, .footer-contact, .footer-socials {
+      max-width: 100%;
+      text-align: center;
+  }
+}
+
+
+
+
+/* Structure de l'en-tête */
+
+
+/* Conteneur principal */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+/* Section introduction */
+.intro {
+  max-width: 50%;
+}
+
+.intro h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background-color: #ff6600;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+/* Image du téléphone */
+.phone-image img {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+div img{
+  
+   cursor: pointer;
+   margin: 10px;
+   transition: 400ms;
+
+  }
+  div img:hover{
+ 
+   transform: scale(1.03);
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin-bottom: 20px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+
+
