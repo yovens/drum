@@ -675,3 +675,122 @@ div img{
 
 
 
+  .bg-cours {
+    background: linear-gradient(-45deg, #43cea2, #185a9d, #30cfd0, #330867);
+    animation: gradient 10s ease infinite;
+  }
+
+  .bg-cour1 {
+    background: linear-gradient(-45deg, #ff6a00, #ee0979, #ff512f, #dd2476);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours2 {
+    background: linear-gradient(-45deg, #00c9ff, #92fe9d, #4facfe, #00f2fe);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours3 {
+    background: linear-gradient(-45deg, #f7971e, #ffd200, #f37335, #fdc830);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours4 {
+    background: linear-gradient(-45deg, #8e2de2, #4a00e0, #b06ab3, #4568dc);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours5 {
+    background: linear-gradient(-45deg, #00b09b, #96c93d, #3ca55c, #b5ac49);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours6 {
+    background: linear-gradient(135deg, #0099f7, #f11712);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+  }
+  
+  
+  .bg-cours7 {
+    background: linear-gradient(-45deg, #ff5f6d, #ffc371, #ff7e5f, #feb47b);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours8 {
+    background: linear-gradient(-45deg, #56ccf2, #2f80ed, #00c6ff, #0072ff);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours9 {
+    background: linear-gradient(-45deg, #fc466b, #3f5efb, #bdc3c7, #2c3e50);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  .bg-cours10 {
+    background: linear-gradient(-45deg, #ff512f, #dd2476, #ff6a00, #f83600);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+  }
+  
+  
+
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+
+  h1 {
+    font-size: 3rem;
+    animation: popIn 1s ease;
+  }
+  
+  @keyframes popIn {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+  .bg-home {
+    background: linear-gradient(-45deg, #667eea, #764ba2, #6b73ff, #000dff);
+    animation: gradient 10s ease infinite;
+  }
+
+
+
+
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(4px);
+  }
+  
+  button:hover {
+    background: white;
+    color: #333;
+    transform: scale(1.05);
+  }
+  
+  button:active {
+    transform: scale(0.97);
+    background: #fff;
+    color: #000;
+  }
+  
+
+  
