@@ -793,4 +793,36 @@ div img{
   }
   
 
-  
+  .cours-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.cours-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  text-decoration: none;
+  color: #000;
+  transition: transform 0.2s ease;
+}
+
+.cours-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Centrage sur petits écrans */
+@media (max-width: 768px) {
+  .cours-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
